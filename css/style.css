@@ -43,7 +43,6 @@ h2{
 nav li{
   display:inline;
   padding-right:20px;
-
 }
 
 nav a{
@@ -67,6 +66,7 @@ nav{
   background-color: #ddd;
   padding: 25px 0; 
   text-align: left;
+  align-items: center;
 }
 
 footer{
@@ -219,8 +219,11 @@ first div in the grid  and place it in the grid. */
 @media only screen and (min-width: 768px) {
   nav{
     background-color: #ddd;
-    padding: 30px 0px 0px 0px; 
-    text-align: right;
+    padding: 30px 0px 30px 0px; 
+    
+    display:flex;
+    justify-content: right;
+    align-items: center;
   }
   .container{
     background-color: #737373;
